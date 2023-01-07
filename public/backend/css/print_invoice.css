@@ -1,0 +1,146 @@
+
+* {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+}
+
+.logo svg {
+    width: 110px;
+    height: 110px;
+}
+
+.list {
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 250px;
+}
+
+.list ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.list ul li svg {
+    fill: #0E283D;
+    width: 20px;
+    height: 20px;
+
+}
+
+.list ul li span {
+    margin-left: 10px;
+    color: #0E283D;
+    font-size: 16px;
+
+}
+
+.loc svg {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.nunber-d {
+}
+
+.nunber-d p {
+    color: #0E283D;
+    text-align: center;
+}
+
+.table-1 {
+    margin: 20px 0;
+    direction: rtl;
+    text-align: right;
+}
+
+.table-1 table {
+    width: 100%;
+}
+
+.table-1 tbody {
+}
+
+.table-1 tbody tr {
+    border: 2px solid #0E283D;
+}
+
+.table-1 tbody tr td {
+    padding: 10px;
+    border: 2px solid #0E283D;
+    font-weight: bold;
+}
+
+.table2 {
+    border: 3px solid #0E283D;
+    direction: rtl;
+    text-align: right;
+}
+
+.table2 table {
+    width: 100%;
+    border: 1px solid #0E283D;
+    min-height: 400px;
+}
+
+.table2 table tr {
+    border: 1px solid #0E283D;
+    height: 40px;
+}
+
+.table2 table tr th {
+    padding: 10px;
+    border: 1px solid #0E283D;
+    text-align: center;
+}
+
+.table2 table tr td {
+    border: 1px solid #0E283D;
+    text-align: center;
+}
+
+.table2 table tfoot {
+    width: 100%;
+}
+
+.table2 table tfoot td {
+    text-align: right;
+    padding: 10px;
+}
+
+.footer {
+    padding: 15px;
+    text-align: right;
+    direction: rtl;
+}
+
+.footer h5 {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer ul {
+    padding: 0 20px;
+}
+
+.footer ul li {
+}
